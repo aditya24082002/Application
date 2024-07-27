@@ -1,25 +1,24 @@
-function hello(){
-    document.write("Hello every one body<br>");
-    document.write("Hello every one body");
-
-}
-hello();
-
-
-function hello1(a,b){
+var a=[10,20,30,40,50];
+document.write(a);
 document.write("<br>");
-document.write(a+b);
-document.write("<br>")
+
+var a=[10,20,30,40,50];
+document.write(a[3]);
+document.write("<br>");
+
+var a=[10,20,30,40,50];
+var sum=0;
+for(b=0;b<=4;b++){
+    document.write(a[b]+"<br>");
+    sum=sum+a[b];
 }
-hello1(9,6);
+document.write("total sum :" +sum);
 
 
-function hello2(){
-    document.write("Aditya Kumar");
-    document.write('<img src="image/2024.jpeg" alt="Aditya Kumar" style="width: 200px; height: 100px;">');
-document.write("Aditya Kumar");
+
+var a=[10,20,30,40,50];
+document.write("<ul>");
+for(b=0;b<=4;b++){
+    document.write("<li>"+a[b]+"</li>");
 }
-
-
-
-
+document.write("</ul>");
