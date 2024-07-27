@@ -14,7 +14,7 @@ for(b=0;b<=4;b++){
 }
 document.write("total sum :" +sum);
 
-document.write("total sum :" +sum + 1);
+document.write("total sum :" +sum + 2);
 
 
 
